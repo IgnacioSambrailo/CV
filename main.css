@@ -53,7 +53,10 @@ header ul {
     justify-content: space-between;
     list-style-type: none;
     padding-inline-start: 0px;
-    overflow-wrap: break-word;
+}
+
+header li {
+    padding: 0.5em;
 }
 
 ul {
@@ -71,7 +74,7 @@ a {
 }
 
 td{
-    padding: 0.5em 2em;
+    padding: 0.5em 1.5em;
 }
 
 li{
