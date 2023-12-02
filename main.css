@@ -46,6 +46,16 @@ p {
     margin-inline-end: 0px;
 }
 
+header ul {
+    position: relative;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    overflow-wrap: break-word;
+}
+
 ul {
     display: block;
     list-style-type: disc;
@@ -56,24 +66,17 @@ ul {
     padding-inline-start: 40px;
 }
 
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-
-header ul {
-    position: relative;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-}
-
 a {
     color: rgb(19, 158, 223);
 }
 
 td{
     padding: 0.5em 2em;
+}
+
+li{
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
