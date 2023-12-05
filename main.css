@@ -11,10 +11,7 @@ body {
 h1 {
     display: block;
     font-size: 2.5em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin:0;
     font-weight: bold;
 }
 
@@ -54,7 +51,8 @@ header ul {
 }
 
 header li {
-    padding: 1em;
+    margin: 0;
+    padding: 0em 1em;
     flex: 1 0;
 }
 
