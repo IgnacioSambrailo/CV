@@ -21,24 +21,25 @@ body {
 }
 
 .navigation {
-    box-sizing: border-box;
     overflow: auto;
     top: 0;
     padding: 18px;
-    max-width:70%;
+    max-width:800px;
     margin: auto;
     z-index: 999;
     color:#fff;
 }
   
 ul {
-padding:0;
-margin: 0
+    display: flex;
+    justify-content: start;
+    padding:0;
+    margin: 0
 }
   
 li {
     display: inline-block;
-    padding: 0px 20px;
+    padding-right: 20px;
     font-weight: 300;
     font-size: 1rem;
     letter-spacing: 2px;
@@ -143,4 +144,8 @@ transition: 0.2s;
 .fill:hover::after {
 top: 0px;
 left: 0px;
+}
+
+.cv{
+    padding-left: 30vw;
 }
